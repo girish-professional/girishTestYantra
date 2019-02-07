@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="tests" name="TestChrome2(failed)">
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="nodeUrl" value="http://192.168.43.89:4444/wd/hub"/>
+    <classes>
+      <class name="parallelExecution.ParallelBrowserOpen">
+        <methods>
+          <include name="runBrowser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- parallelExecution.ParallelBrowserOpen -->
+    </classes>
+  </test> <!-- TestChrome2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
