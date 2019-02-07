@@ -1,0 +1,5 @@
+How to upload formlocal to git ?
+Right click on the project .
+Team
+Share Project
+
